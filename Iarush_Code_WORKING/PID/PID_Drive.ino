@@ -1,0 +1,1 @@
+const float MAX_DUTY = 6.0 / 7.8; // 6 V motors on a 7.8 V battery

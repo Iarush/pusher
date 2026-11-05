@@ -1,0 +1,95 @@
+FQBN: rp2040:rp2040:rpipico2
+Using board 'rpipico2' from platform in folder: C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0
+Using core 'rp2040' from platform in folder: C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0
+
+Detecting libraries used...
+C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\tools\pqt-gcc\5.0.0-9576866/bin/arm-none-eabi-g++ -I C:\Users\ramn1\AppData\Local\arduino\sketches\46C7E7355547CC820A9BACF890969AAE/core -c -Werror=return-type -Wno-psabi -DUSBD_PID=0x000f -DUSBD_VID=0x2e8a -DUSBD_MAX_POWER_MA=250 -DUSB_MANUFACTURER="Raspberry Pi" -DUSB_PRODUCT="Pico 2" -DLWIP_IPV6=0 -DLWIP_IPV4=1 -DLWIP_IGMP=1 -DLWIP_CHECKSUM_CTRL_PER_NETIF=1 -DFILE_COPY_CONSTRUCTOR_SELECT=FILE_COPY_CONSTRUCTOR_PUBLIC -DUSE_UTF8_LONG_NAMES=1 -DDISABLE_FS_H_WARNING=1 -DARDUINO_VARIANT="rpipico2" -DPICO_FLASH_SIZE_BYTES=4194304 -DFS_START=272621568 -DFS_END=272621568 @C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0/lib/platform_def.txt @C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0/lib/rp2350/platform_def.txt -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse -ffunction-sections -fdata-sections -fno-exceptions -iprefixC:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0/ @C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0/lib/rp2350/platform_inc.txt @C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0/lib/core_inc.txt -IC:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0/include -fno-rtti -std=gnu++23 -g -pipe -Wno-volatile -w -x c++ -E -CC -DF_CPU=150000000L -DARDUINO=10607 -DARDUINO_RASPBERRY_PI_PICO_2 -DBOARD_NAME="RASPBERRY_PI_PICO_2" -DARDUINO_ARCH_RP2040 -Os -DWIFICC=CYW43_COUNTRY_WORLDWIDE -IC:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\cores\rp2040 -IC:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\variants\rpipico2 C:\Users\ramn1\AppData\Local\arduino\sketches\46C7E7355547CC820A9BACF890969AAE\sketch\sketch_sep20a.ino.cpp.merged -o nul -MMD -MF C:\Users\ramn1\AppData\Local\arduino\sketches\46C7E7355547CC820A9BACF890969AAE\sketch\sketch_sep20a.ino.cpp.merged.libsdetect.d
+Alternatives for Wire.h: [Wire@1.0]
+ResolveLibrary(Wire.h)
+  -> candidates: [Wire@1.0]
+C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\tools\pqt-gcc\5.0.0-9576866/bin/arm-none-eabi-g++ -I C:\Users\ramn1\AppData\Local\arduino\sketches\46C7E7355547CC820A9BACF890969AAE/core -c -Werror=return-type -Wno-psabi -DUSBD_PID=0x000f -DUSBD_VID=0x2e8a -DUSBD_MAX_POWER_MA=250 -DUSB_MANUFACTURER="Raspberry Pi" -DUSB_PRODUCT="Pico 2" -DLWIP_IPV6=0 -DLWIP_IPV4=1 -DLWIP_IGMP=1 -DLWIP_CHECKSUM_CTRL_PER_NETIF=1 -DFILE_COPY_CONSTRUCTOR_SELECT=FILE_COPY_CONSTRUCTOR_PUBLIC -DUSE_UTF8_LONG_NAMES=1 -DDISABLE_FS_H_WARNING=1 -DARDUINO_VARIANT="rpipico2" -DPICO_FLASH_SIZE_BYTES=4194304 -DFS_START=272621568 -DFS_END=272621568 @C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0/lib/platform_def.txt @C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0/lib/rp2350/platform_def.txt -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse -ffunction-sections -fdata-sections -fno-exceptions -iprefixC:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0/ @C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0/lib/rp2350/platform_inc.txt @C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0/lib/core_inc.txt -IC:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0/include -fno-rtti -std=gnu++23 -g -pipe -Wno-volatile -w -x c++ -E -CC -DF_CPU=150000000L -DARDUINO=10607 -DARDUINO_RASPBERRY_PI_PICO_2 -DBOARD_NAME="RASPBERRY_PI_PICO_2" -DARDUINO_ARCH_RP2040 -Os -DWIFICC=CYW43_COUNTRY_WORLDWIDE -IC:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\cores\rp2040 -IC:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\variants\rpipico2 -IC:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\libraries\Wire\src C:\Users\ramn1\AppData\Local\arduino\sketches\46C7E7355547CC820A9BACF890969AAE\sketch\sketch_sep20a.ino.cpp.merged -o nul -MMD -MF C:\Users\ramn1\AppData\Local\arduino\sketches\46C7E7355547CC820A9BACF890969AAE\sketch\sketch_sep20a.ino.cpp.merged.libsdetect.d
+Using cached library dependencies for file: C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\libraries\Wire\src\Wire.cpp
+Generating function prototypes...
+C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\tools\pqt-gcc\5.0.0-9576866/bin/arm-none-eabi-g++ -I C:\Users\ramn1\AppData\Local\arduino\sketches\46C7E7355547CC820A9BACF890969AAE/core -c -Werror=return-type -Wno-psabi -DUSBD_PID=0x000f -DUSBD_VID=0x2e8a -DUSBD_MAX_POWER_MA=250 -DUSB_MANUFACTURER="Raspberry Pi" -DUSB_PRODUCT="Pico 2" -DLWIP_IPV6=0 -DLWIP_IPV4=1 -DLWIP_IGMP=1 -DLWIP_CHECKSUM_CTRL_PER_NETIF=1 -DFILE_COPY_CONSTRUCTOR_SELECT=FILE_COPY_CONSTRUCTOR_PUBLIC -DUSE_UTF8_LONG_NAMES=1 -DDISABLE_FS_H_WARNING=1 -DARDUINO_VARIANT="rpipico2" -DPICO_FLASH_SIZE_BYTES=4194304 -DFS_START=272621568 -DFS_END=272621568 @C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0/lib/platform_def.txt @C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0/lib/rp2350/platform_def.txt -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse -ffunction-sections -fdata-sections -fno-exceptions -iprefixC:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0/ @C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0/lib/rp2350/platform_inc.txt @C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0/lib/core_inc.txt -IC:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0/include -fno-rtti -std=gnu++23 -g -pipe -Wno-volatile -w -x c++ -E -CC -DF_CPU=150000000L -DARDUINO=10607 -DARDUINO_RASPBERRY_PI_PICO_2 -DBOARD_NAME="RASPBERRY_PI_PICO_2" -DARDUINO_ARCH_RP2040 -Os -DWIFICC=CYW43_COUNTRY_WORLDWIDE -IC:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\cores\rp2040 -IC:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\variants\rpipico2 -IC:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\libraries\Wire\src C:\Users\ramn1\AppData\Local\arduino\sketches\46C7E7355547CC820A9BACF890969AAE\sketch\sketch_sep20a.ino.cpp.merged -o C:\Users\ramn1\AppData\Local\Temp\3981529533\sketch_merged.cpp
+C:\Users\ramn1\AppData\Local\Arduino15\packages\builtin\tools\ctags\5.8-arduino11/ctags -u --language-force=c++ -f - --c++-kinds=svpf --fields=KSTtzns --line-directives C:\Users\ramn1\AppData\Local\Temp\3981529533\sketch_merged.cpp
+
+Compiling sketch...
+"C:\\Users\\ramn1\\AppData\\Local\\Arduino15\\packages\\rp2040\\tools\\pqt-python3\\1.0.1-base-3a57aed-1/python3" -I "C:\\Users\\ramn1\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\6.1.0/tools/signing.py" --mode header --publickey "C:\\Users\\ramn1\\AppData\\Local\\Temp\\.arduinoIDE-unsaved2026820-13772-vuem4t.zoyxh\\sketch_sep20a/public.key" --out "C:\\Users\\ramn1\\AppData\\Local\\arduino\\sketches\\46C7E7355547CC820A9BACF890969AAE/core/Updater_Signing.h"
+"C:\\Users\\ramn1\\AppData\\Local\\Arduino15\\packages\\rp2040\\tools\\pqt-gcc\\5.0.0-9576866/bin/arm-none-eabi-g++" -I "C:\\Users\\ramn1\\AppData\\Local\\arduino\\sketches\\46C7E7355547CC820A9BACF890969AAE/core" -c -Werror=return-type -Wno-psabi -DUSBD_PID=0x000f -DUSBD_VID=0x2e8a -DUSBD_MAX_POWER_MA=250 "-DUSB_MANUFACTURER=\"Raspberry Pi\"" "-DUSB_PRODUCT=\"Pico 2\"" -DLWIP_IPV6=0 -DLWIP_IPV4=1 -DLWIP_IGMP=1 -DLWIP_CHECKSUM_CTRL_PER_NETIF=1 -DFILE_COPY_CONSTRUCTOR_SELECT=FILE_COPY_CONSTRUCTOR_PUBLIC -DUSE_UTF8_LONG_NAMES=1 -DDISABLE_FS_H_WARNING=1 "-DARDUINO_VARIANT=\"rpipico2\"" -DPICO_FLASH_SIZE_BYTES=4194304 -DFS_START=272621568 -DFS_END=272621568 "@C:\\Users\\ramn1\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\6.1.0/lib/platform_def.txt" "@C:\\Users\\ramn1\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\6.1.0/lib/rp2350/platform_def.txt" -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse -ffunction-sections -fdata-sections -fno-exceptions -MMD "-iprefixC:\\Users\\ramn1\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\6.1.0/" "@C:\\Users\\ramn1\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\6.1.0/lib/rp2350/platform_inc.txt" "@C:\\Users\\ramn1\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\6.1.0/lib/core_inc.txt" "-IC:\\Users\\ramn1\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\6.1.0/include" -fno-rtti -std=gnu++23 -g -pipe -Wno-volatile -DF_CPU=150000000L -DARDUINO=10607 -DARDUINO_RASPBERRY_PI_PICO_2 "-DBOARD_NAME=\"RASPBERRY_PI_PICO_2\"" -DARDUINO_ARCH_RP2040 -Os -DWIFICC=CYW43_COUNTRY_WORLDWIDE "-IC:\\Users\\ramn1\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\6.1.0\\cores\\rp2040" "-IC:\\Users\\ramn1\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\6.1.0\\variants\\rpipico2" "-IC:\\Users\\ramn1\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\6.1.0\\libraries\\Wire\\src" "C:\\Users\\ramn1\\AppData\\Local\\arduino\\sketches\\46C7E7355547CC820A9BACF890969AAE\\sketch\\sketch_sep20a.ino.cpp" -o "C:\\Users\\ramn1\\AppData\\Local\\arduino\\sketches\\46C7E7355547CC820A9BACF890969AAE\\sketch\\sketch_sep20a.ino.cpp.o"
+C:\Users\ramn1\AppData\Local\Temp\.arduinoIDE-unsaved2026820-13772-vuem4t.zoyxh\sketch_sep20a\sketch_sep20a.ino:1:1: error: stray '`' in program
+    1 | ```cpp
+      | ^
+C:\Users\ramn1\AppData\Local\Temp\.arduinoIDE-unsaved2026820-13772-vuem4t.zoyxh\sketch_sep20a\sketch_sep20a.ino:1:2: error: stray '`' in program
+    1 | ```cpp
+      |  ^
+C:\Users\ramn1\AppData\Local\Temp\.arduinoIDE-unsaved2026820-13772-vuem4t.zoyxh\sketch_sep20a\sketch_sep20a.ino:1:3: error: stray '`' in program
+    1 | ```cpp
+      |   ^
+C:\Users\ramn1\AppData\Local\Temp\.arduinoIDE-unsaved2026820-13772-vuem4t.zoyxh\sketch_sep20a\sketch_sep20a.ino:536:1: error: stray '`' in program
+  536 | ```
+      | ^
+C:\Users\ramn1\AppData\Local\Temp\.arduinoIDE-unsaved2026820-13772-vuem4t.zoyxh\sketch_sep20a\sketch_sep20a.ino:536:2: error: stray '`' in program
+  536 | ```
+      |  ^
+C:\Users\ramn1\AppData\Local\Temp\.arduinoIDE-unsaved2026820-13772-vuem4t.zoyxh\sketch_sep20a\sketch_sep20a.ino:536:3: error: stray '`' in program
+  536 | ```
+      |   ^
+C:\Users\ramn1\AppData\Local\Temp\.arduinoIDE-unsaved2026820-13772-vuem4t.zoyxh\sketch_sep20a\sketch_sep20a.ino:1:4: error: 'cpp' does not name a type
+    1 | ```cpp
+      |    ^~~
+In file included from C:\Users\ramn1\AppData\Local\Temp\.arduinoIDE-unsaved2026820-13772-vuem4t.zoyxh\sketch_sep20a\sketch_sep20a.ino:24:
+C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\libraries\Wire\src/Wire.h:45:36: error: expected class-name before '{' token
+   45 | class TwoWire : public HardwareI2C {
+      |                                    ^
+C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\libraries\Wire\src/Wire.h:91:18: error: type 'arduino::Print' is not a base type for type 'TwoWire'
+   91 |     using Print::write;
+      |                  ^~~~~
+C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\libraries\Wire\src/Wire.h:50:10: error: 'void TwoWire::begin()' marked 'override', but does not override
+   50 |     void begin() override;
+      |          ^~~~~
+C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\libraries\Wire\src/Wire.h:52:10: error: 'void TwoWire::begin(uint8_t)' marked 'override', but does not override
+   52 |     void begin(uint8_t address) override;
+      |          ^~~~~
+C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\libraries\Wire\src/Wire.h:54:10: error: 'void TwoWire::end()' marked 'override', but does not override
+   54 |     void end() override;
+      |          ^~~
+C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\libraries\Wire\src/Wire.h:60:10: error: 'void TwoWire::setClock(uint32_t)' marked 'override', but does not override
+   60 |     void setClock(uint32_t freqHz) override;
+      |          ^~~~~~~~
+C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\libraries\Wire\src/Wire.h:62:10: error: 'void TwoWire::beginTransmission(uint8_t)' marked 'override', but does not override
+   62 |     void beginTransmission(uint8_t) override;
+      |          ^~~~~~~~~~~~~~~~~
+C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\libraries\Wire\src/Wire.h:63:13: error: 'uint8_t TwoWire::endTransmission(bool)' marked 'override', but does not override
+   63 |     uint8_t endTransmission(bool stopBit) override;
+      |             ^~~~~~~~~~~~~~~
+C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\libraries\Wire\src/Wire.h:64:13: error: 'uint8_t TwoWire::endTransmission()' marked 'override', but does not override
+   64 |     uint8_t endTransmission(void) override;
+      |             ^~~~~~~~~~~~~~~
+C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\libraries\Wire\src/Wire.h:66:12: error: 'size_t TwoWire::requestFrom(uint8_t, size_t, bool)' marked 'override', but does not override
+   66 |     size_t requestFrom(uint8_t address, size_t quantity, bool stopBit) override;
+      |            ^~~~~~~~~~~
+C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\libraries\Wire\src/Wire.h:67:12: error: 'size_t TwoWire::requestFrom(uint8_t, size_t)' marked 'override', but does not override
+   67 |     size_t requestFrom(uint8_t address, size_t quantity) override;
+      |            ^~~~~~~~~~~
+C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\libraries\Wire\src/Wire.h:69:12: error: 'size_t TwoWire::write(uint8_t)' marked 'override', but does not override
+   69 |     size_t write(uint8_t data) override;
+      |            ^~~~~
+C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\libraries\Wire\src/Wire.h:70:12: error: 'size_t TwoWire::write(const uint8_t*, size_t)' marked 'override', but does not override
+   70 |     size_t write(const uint8_t * data, size_t quantity) override;
+      |            ^~~~~
+C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\libraries\Wire\src/Wire.h:72:17: error: 'virtual int TwoWire::available()' marked 'override', but does not override
+   72 |     virtual int available(void) override;
+      |                 ^~~~~~~~~
+C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\libraries\Wire\src/Wire.h:73:17: error: 'virtual int TwoWire::read()' marked 'override', but does not override
+   73 |     virtual int read(void) override;
+      |                 ^~~~
+C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\libraries\Wire\src/Wire.h:74:17: error: 'virtual int TwoWire::peek()' marked 'override', but does not override
+   74 |     virtual int peek(void) override;
+      |                 ^~~~
+C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\libraries\Wire\src/Wire.h:75:18: error: 'virtual void TwoWire::flush()' marked 'override', but does not override
+   75 |     virtual void flush(void) override;
+      |                  ^~~~~
+Using library Wire at version 1.0 in folder: C:\Users\ramn1\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\6.1.0\libraries\Wire 
+exit status 1
+
+Compilation error: stray '`' in program
